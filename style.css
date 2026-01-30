@@ -19,9 +19,11 @@ body {
     padding:  15px 30px;
 }
 
-.header-title {
+.header-title a{
     font-size: 2rem;
     padding: 5px;
+    text-decoration: none;
+    color: black;
 }
 
 /*==== Search ====*/
@@ -51,7 +53,6 @@ body {
     border: none;
     margin: 9px;
 }
-
 
 .header-nav {
     display: flex;
